@@ -1,0 +1,11 @@
+.container{
+
+height: 80%;
+width: 60%;
+background-color: brown;
+color: azure;
+text-align: center;
+border: solid rgb(0, 0, 0) 1px;
+
+
+}

@@ -1,0 +1,26 @@
+*{
+    background-color: beige;
+}
+
+#ok {
+
+    border: solid rgb(7, 51, 172) 2px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+
+#obisity {
+
+    border: solid chocolate 1px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#obisity :nth-child(odd) {
+
+    background-color: linen;
+}

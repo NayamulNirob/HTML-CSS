@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Layout</title>
+
+    <style>
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#header {
+
+height: 60px;
+background-color: aquamarine;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 20px;
+}
+ #header img{
+    width: 50px;
+    height: auto;
+ }
+
+#content{
+
+
+    width: 100%;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+#footer{
+
+height: 10vh;
+width: 100%;
+background-color: darkgrey;
+
+}
+
+nav ul{
+
+    list-style: none;
+    float: right;
+}
+nav ul li{
+
+    display: inline-block;
+    margin left: 20px;
+}
+
+#header img{
+
+    width: 50px;
+    height: auto;
+}
+
+nav a{
+
+text-decoration:none;
+color: black;
+font-weight: bold;
+font-size: 16px;
+padding: 10px;
+transition:background-color 0.3s, color 0.3s;
+}
+
+nav a:hover{
+
+    background-color: azure;
+    color: #ffffff;
+}
+    </style>
+
+
+</head>
+
+<div id="header">
+
+<nav>
+
+<a href="Home.html" target="Content">
+<img src="android-1690987_1280.png" alt="Android"></a>
+<ul>
+    <li><a href="Home.html" target="Content" >HOME</a></li>
+    <li><a href="ABOUT.html" target="Content" >ABOUT</a></li>
+    <li><a href="Contact.html" target="Content" >CONTACT</a> </li>
+    <li><a href="GALLERY.html" target="Content" >GALLERY</a></li>
+
+</ul>
+
+</nav>
+
+<div id="Content">
+
+<iframe src="0"frameborder="0" name="Content" width="100%" height="100%" ></iframe>
+
+</div>
+
+
+<div id="footer"></div>
+
+
+<body>
+
+</body>
+
+</html>

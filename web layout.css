@@ -1,0 +1,100 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+
+            height: 10vh;
+            width: 100%;
+            background-color: rgb(174, 0, 255);
+
+        }
+
+        nav ul li {
+
+            list-style: none;
+
+            float: left;
+
+            margin: 22px 15px 0px 54px;
+
+        }
+
+        nav ul {
+
+            float: right;
+
+        }
+
+
+        #content {
+
+            height: 80vh;
+            width: 100%;
+            color: rgb(252, 245, 237);
+
+        }
+
+
+        #footer {
+
+            height: 10vh;
+            width: 100%;
+            background-color: rgb(61, 87, 112);
+
+        }
+
+
+        nav img {
+
+            height: 60px;
+            width: auto;
+
+            margin: 6px 0px 0px 11px;
+
+        }
+
+        #content iframe {
+
+            height: 79vh;
+            width: 100%;
+
+        }
+
+
+        nav a {
+
+            text-decoration: none;
+
+            color: rgb(0, 0, 0);
+
+            font-weight: bold;
+            font-size: x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        nav ul li a:hover {
+            background-color: blue;
+            color: rgb(255, 255, 255);
+
+        }
+
+        nav a:visited {
+
+            color: aquamarine;
+        }
+
+
+        #footer{
+            
+                color: rgb(255, 255, 255);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        #footer p{
+
+            margin: 10px 0px 0px 45px;
+            font-style:oblique;
+        }
