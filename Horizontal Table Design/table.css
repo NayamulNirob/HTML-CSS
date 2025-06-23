@@ -1,0 +1,57 @@
+.tables-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+  align-items: stretch;
+  /* Makes both tables the same height */
+}
+
+.table-container {
+  width: 48%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.shared-header {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.shared-header h3,
+.shared-header b {
+  margin: 4px 0;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  height: 100%;
+}
+
+th,
+td {
+  border: 1px solid #aaa;
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.group-row {
+  background-color: #e9e9e9;
+  font-style: italic;
+}
